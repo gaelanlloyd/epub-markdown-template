@@ -1,0 +1,37 @@
+body {
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 { text-align: left; }
+
+p.author,
+p.date,
+.text-center { text-align: center; }
+
+h1.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+ol.toc {
+    padding: 0;
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+
+ul.toc ul, ol.toc ol {
+    margin: .3em 0;
+}
+
+li { margin: 0; padding: 0 5px; }
+
+code,
+pre {
+    font-family: monospace;
+    background-color: rgb(247, 247, 247);
+}
+
+pre {
+    padding: 16px;
+    overflow: auto;
+}
