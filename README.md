@@ -12,4 +12,4 @@ Ensure there's a blank line at the end of each chapter. Otherwise, the next chap
 
 ## Building the EPUB
 
-pandoc -o output.epub metadata.yaml contents/*.md --table-of-contents (--toc-depth={1-6})
+pandoc --css style.css -o output.epub metadata.yaml contents/*.md --table-of-contents (--toc-depth={1-6})
